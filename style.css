@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-color: blueviolet;
+    background-image: url(akali.jpg);
+}
+
+ /* önemli */
+.container{
+    width: %80;
+    margin: auto;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul{
+    font-size: 30px;
+    padding: 8px 15px;
+    border-radius: 50px;
+    column-gap: 50px;
+}
+
+
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+    
+}
+nav .menu .subs{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color:;
+    padding: 12px 24px;
+    border-radius: 60px;
+    text-decoration: none;
+}
+
+
+header nav .logo a{
+    color:  white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 15px 40px ;
+    column-width: 100px;
+ 
+}
+header nav .logo{
+    
+   padding-top: 20px;
+}
+
+
+
+
+.content{
+    color: rgb(255, 255, 255);
+    height: calc(100vh - 100px);
+    padding-top: 150px;
+}
+
+.content h1{
+    font-size: 60px;
+    text-align: center;
+}
+.content p{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
